@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeTown</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6e06b41da.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="bg">
+            <div class="logo">
+                <img src="image/home.png" alt="">
+                <input type="text" placeholder="search products" required>
+            </div>
+            <div class="wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="reachus.html">Reach Us</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="">New Arrivals</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="bg-mobile">
+            <div class="logo">
+                <img src="image/home.png" alt="">
+                <div class="hamburger" onclick="burger()">
+                    <p class="one"></p>
+                    <p class="two"></p>
+                    <p class="three"></p>
+                </div>
+            </div>
+            <div class="wrapper wrap">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="reachus.html">Reach Us</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="">New Arrivals</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="wrapper">
+    <section class="about">
+    <h1>Who We Are</h1>
+    <p>Since 2006, HomeTown has been bringing the latest designs & fashion to Indian homes.
+         HomeTown offers the widest and best in class range in furniture, 
+         home furnishings & decor, modular kitchens, home improvement and more. 
+         Part of the Future Group, HomeTown brings an enjoyable and hassle-free homemaking 
+         experience to all its valuable customers with varying lifestyles and preferences.</p>
+   <p>We promise to facilitate our customers with a unique and personalized shopping experience.
+     Our commitment to quality and timeless designs has helped us 
+    evolve over the years and it indeed fills us with pride to be the first choice of many.</p>
+    <p>With a great spread that appeals to the globe-trotting, trendy yet very much Indian homemaker, 
+        HomeTown is known to attract an array of lifestyle seeking customers. 
+        Being recognized as India’s biggest store in homemaking, renovation and decor, 
+        our products are exclusively designed while keeping durability and comfort at priority.
+        The key differentiator between Home Town and others is the Design and Build offering 
+        of end-to-end interior decoration services, 
+        to customers who are interested in renovating & upgrading their homes.</p>
+    <p>From classy sofas to chic dining sets to kitchen essentials and artifacts, 
+        we offer everything to beautify your living space. Since 2006, 
+        we’ve grown to over 44 stores across 28 cities. Keeping pace with the tech-savvy world, 
+        we have maintained a strong web presence with prompt online services.</p>
+    </section>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <div class="main-content">
+                <div class="left box">
+                    <h2>OUR COMPANY</h2>
+                    <div class="content">
+                        <ul>
+                            <li>ABOUT</li>
+                            <li>CAREERS</li>
+                            <li>CONTACT US</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="center box">
+                    <h2>ADDRESS</h2>
+                    <div class="content">
+                        <div class="place">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="text">CHENNAI,TAMILNADU</span>
+                        </div>
+
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <span class="text">1800-210-0004</span>
+                        </div>
+
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="text">care@hometown.in</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="right box">
+                    <h2>SUBSCRIBE NEWSLETTER</h2>
+                    <div class="content">
+                        <form action="#">
+                            <div class="email">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input class="tbox" type="email" placeholder="enter your email" required>
+                                <button class="btn" type="button" name="button">SUBSCRIBE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="title">
+                <h2>FOLLOW US</h2>
+            </div>
+            <div class="social">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <section class="copy">
+                <img src="image/home.png" alt="">
+                <p>Copyright <i class="fa-solid fa-copyright"></i> 2022 All rights reserved by <span
+                        style="color: orange;">JASON</span></p>
+            </section>
+        </div>
+    </footer>
+    <div class="hold" id="jaz">
+        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <script>
+        let ham=document.querySelector(".wrap");
+        function burger(){
+            ham.style.display="block";
+        }
+    </script>
+</body>
+
+</html> 
+
